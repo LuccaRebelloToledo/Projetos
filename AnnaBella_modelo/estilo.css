@@ -3,8 +3,10 @@ body {
 	font: 16px Arial, Helvetica, sans-serif;
 }
 
-#principal {
-	width: 900px;
+#principal { 
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #menu {
@@ -25,15 +27,17 @@ body {
 
 .img-campanha {
 	border: 10px outset #c3c3ae;
+	width: 50%;
+	margin-left: center;
 }
 
 .img-capa {
 	border: 5px outset #c3c3ae;
+	width: 100%;
 }
 
 .img-fotos {
 	text-align: center;
-	border: 1px solid red;
 }
 
 
