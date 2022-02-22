@@ -1,0 +1,56 @@
+/* Seletor universal */
+
+/*{
+	border: 1px solid gray;
+}*/
+
+/*seletor de texto */
+
+/*h1 {
+	color: green;
+}*/
+
+/*seletor de classes */
+
+/*.verde {
+	color: darkgreen;
+}*/
+
+/*seletor de ID */
+
+/*#cabecalho{
+	border: 1px solid gray;
+}*/
+
+/*seletor de filho*/
+
+/*li>a {
+	color: red;
+	text-decoration: none;
+}*/
+
+/*seletor de descendente*/
+
+/*li a {
+	color: blue;
+	text-decoration: none;
+}*/
+
+/*p a {
+	color: red;
+	text-decoration: none;
+}*/
+
+/*seletor de irmao adjacente*/
+
+/*h2+p {
+	color: red;
+	font-size: 0.8em;
+}*/
+
+/* seletor de irmao geral */
+
+h3~p {
+	color: pink;
+
+}
