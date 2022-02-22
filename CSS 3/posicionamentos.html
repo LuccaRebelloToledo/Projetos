@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Posicionamentos (static, relative, absolute and fixed)</title>
+</head>
+
+	<style type="text/css">
+		body {
+			background: skyblue;
+		}
+
+		#container {
+			background: #FFF;
+			width: 800px;
+			margin: 10px auto;
+			padding: 10px;
+		}
+
+		h1 {
+
+		}
+
+		p {
+			width: 400px;
+		}
+
+		.relative {
+			border: 1px solid gray;
+			position: relative;
+			left: 90px;
+		}
+
+		.absolute {
+			position: absolute;
+			border: 1px solid gray;
+			top: 0px;
+			right: 30px;
+			background: #f2f2f2;
+		}
+
+		.fixed {
+			position: fixed;
+			border: 1px solid gray;
+			background: #f2f2f2;
+			margin: 0px;
+			right: 30px;
+		}
+
+
+	</style>
+
+	<body>
+
+		<div id="container">
+			<h1>Posicionamentos</h1>
+			<p class="relative">Proin pellentesque vel vivamus congue morbi nullam, in habitasse per potenti aliquam curae facilisis, himenaeos elementum ut donec lectus. posuere pulvinar duis integer enim cursus nam iaculis erat sapien nullam, vestibulum conubia libero quisque lobortis condimentum feugiat elementum himenaeos cubilia curae, nec cubilia feugiat aliquam luctus congue dolor blandit ultricies. hendrerit posuere aenean nostra facilisis suspendisse ante arcu suspendisse scelerisque, sollicitudin taciti augue orci quis. </p>
+
+			<p class="absolute">	Laoreet etiam per vehicula himenaeos cursus curabitur ac, convallis class rutrum porttitor tellus pharetra, senectus nostra neque condimentum cubilia litora. varius praesent cubilia per posuere rhoncus mattis praesent gravida porttitor condimentum nisi, nec mollis fames elit et aptent lobortis lacinia aliquam donec, laoreet vehicula nunc quisque dictumst nibh vehicula dui primis eu. </p>
+
+			<p class="fixed">	Massa nunc neque eget mollis fermentum venenatis, ut molestie conubia pulvinar augue proin, adipiscing dictum inceptos tellus ut. </p>
+		</div>
+
+	</body>
+
+</html>

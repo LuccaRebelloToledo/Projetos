@@ -1,0 +1,34 @@
+#principal {
+	background: grey;
+	border: 1px slod dimgray;
+}
+
+.conteudo {
+	background: blue;
+	border: 1px solid gray;
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin: 70px;
+}
+
+.conteudo1 {
+	background: pink;
+	border: 1px solid gray;
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin: 70px;
+}
+
+/*.conteudo2 {
+	background: green;
+	border: 1px solid gray;
+	width: 200px;
+	height: 150px;
+	float: left;
+}*/
+
+.clear {
+	clear: both;
+}
